@@ -11,6 +11,7 @@
     "ffmpeg-binaries": "^4.0.0",
     "form-data": "^2.3.2",
     "hoek": "^5.0.4",
+    "klasa": "dirigeants/klasa",
     "lzma-native": "^4.0.1",
     "mkdirp-promise": "^5.0.1",
     "node-fetch": "^2.2.0",

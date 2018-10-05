@@ -686,6 +686,10 @@ fs-minipass@^1.2.5:
   dependencies:
     minipass "^2.2.1"
 
+fs-nextra@^0.3.2:
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/fs-nextra/-/fs-nextra-0.3.7.tgz#81b5b0a5acaebe203c58beaa219b220333557f2a"
+
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
@@ -1023,6 +1027,12 @@ jsprim@^1.2.2:
     extsprintf "1.3.0"
     json-schema "0.2.3"
     verror "1.10.0"
+
+klasa@dirigeants/klasa:
+  version "0.5.0-dev"
+  resolved "https://codeload.github.com/dirigeants/klasa/tar.gz/4d9b9ba9c216e5b18a4d79e45ba3c2dfe9b89ce9"
+  dependencies:
+    fs-nextra "^0.3.2"
 
 levn@^0.3.0, levn@~0.3.0:
   version "0.3.0"
