@@ -21,7 +21,7 @@ module.exports = class extends Command {
     if (args[1]) {
       const langcommands = languages.commands[settings.language]
       if (!commands[args[1]]) return msg.channel.send(f(lang.no_command, args[1]))
-      const embed = new Discord.RichEmbed()
+      const embed = new Discord.MessageEmbed()
         .setTitle('About this command')
         .setDescription(
           (langcommands[args[1]] || ' - Not available information - ')
@@ -33,7 +33,7 @@ module.exports = class extends Command {
       return msg.channel.send(embed)
     }
     const prefix = settings.prefix
-    const embed = new Discord.RichEmbed()
+    const embed = new Discord.MessageEmbed()
       .setTitle(f(lang.commands.title, c.version))
       .setTimestamp()
       .setColor([0,255,0])

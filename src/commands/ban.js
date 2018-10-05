@@ -25,7 +25,7 @@ module.exports = class extends Command {
           return `${user.tag} (${id})`
         }
       }))
-      const embed = new Discord.RichEmbed()
+      const embed = new Discord.MessageEmbed()
         .setTitle(lang.banned_users)
         .setColor([0,255,0])
         .setDescription(bansList.join('\n') || 'まだ誰もBANしていません')
