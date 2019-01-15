@@ -4,6 +4,7 @@
   "description": "Global Banning System for Discord.",
   "main": "index.js",
   "dependencies": {
+    "@types/node": "^10.12.18",
     "biguint-format": "^1.0.0",
     "chalk": "^2.4.1",
     "dblapi.js": "^2.1.0",
@@ -31,7 +32,9 @@
   },
   "devDependencies": {
     "eslint": "^5.7.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
   },
   "scripts": {
     "test": "mocha && node index.js --travis-build",
